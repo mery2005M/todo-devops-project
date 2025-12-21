@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_API_VERSION = '1.43'
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        DOCKERHUB_USERNAME = 'mery2005M'
+        DOCKERHUB_USERNAME = 'mery2005'
         BACKEND_IMAGE = "${DOCKERHUB_USERNAME}/todo-backend"
         FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/todo-frontend"
     }
